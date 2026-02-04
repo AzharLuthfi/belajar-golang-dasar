@@ -12,4 +12,12 @@ func main() {
 
 	// mencoba mengubah nilai constant akan menyebabkan error
 	// firstName = "Luthfiadi" // ini akan error
+
+	// sama seperti variabel, constant juga bisa dideklarasikan secara bersamaan
+	const (
+		city = "Bandung"
+		country = "Indonesia"
+	)
+
+	fmt.Println("kota:", city, "negara:", country)
 }
